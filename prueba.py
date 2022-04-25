@@ -116,7 +116,7 @@ def password_not_recognised():
     password_not_recog_screen = Toplevel(login_screen)
     password_not_recog_screen.title("Success")
     password_not_recog_screen.geometry("150x100")
-    Label(password_not_recog_screen, text="Invalid Password ").pack()
+    Label(password_not_recog_screen, text=" Invalid Username or Password ").pack()
     Button(password_not_recog_screen, text="OK", command=delete_password_not_recognised).pack()
  
 # Designing popup for user not found
@@ -126,7 +126,7 @@ def user_not_found():
     user_not_found_screen = Toplevel(login_screen)
     user_not_found_screen.title("Success")
     user_not_found_screen.geometry("150x100")
-    Label(user_not_found_screen, text="User Not Found").pack()
+    Label(user_not_found_screen, text=" Invalid Username or Password ").pack()
     Button(user_not_found_screen, text="OK", command=delete_user_not_found_screen).pack()
  
 # Deleting popups
@@ -150,7 +150,7 @@ def main_account_screen():
     main_screen = Tk()
     main_screen.geometry("300x250")
     main_screen.title("Account Login")
-    Label(text="Select Your Choice", bg="blue", width="300", height="2", font=("Calibri", 13)).pack()
+    Label(text="Select Your Choice", bg="FireBrick", width="300", height="2", font=("Calibri", 13)).pack()
     Label(text="").pack()
     Button(text="Login", height="2", width="30", command = login).pack()
     Label(text="").pack()
