@@ -25,3 +25,9 @@ def ventana_prueba():
     
     win.mainloop()
     
+def thanks_window():
+    messagebox.showinfo(message="Mensaje", title="Título")
+    Button(text="OK", command=delete_thanks_window).pack()
+    
+def delete_thanks_window():
+    thanks_window.destroy()
