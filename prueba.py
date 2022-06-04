@@ -142,9 +142,6 @@ def delete_password_not_recognised():
 def delete_user_not_found_screen():
     user_not_found_screen.destroy()
  
- 
-# Designing Main(first) window
- 
 def main_account_screen():
     global main_screen
     main_screen = Tk()
@@ -155,8 +152,14 @@ def main_account_screen():
     Button(text="Login", height="2", width="30", command = login).pack()
     Label(text="").pack()
     Button(text="Register", height="2", width="30", command=register).pack()
+    
  
-    main_screen.mainloop()
- 
- 
+    main_screen.mainloop() 
+    
 main_account_screen()
+# Designing Main(first) window
+ 
+
+ 
+ 
+

@@ -2,8 +2,6 @@ from tkinter import *
 import tkinter as tk 
 from math import *
 import math as mt
-import sympy as sp
-from matplotlib import pyplot
 import pandas as pd
 
 
